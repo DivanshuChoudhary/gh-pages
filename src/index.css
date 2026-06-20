@@ -1,3 +1,12 @@
-*, *::before, *::after { box-sizing: border-box; }
-body { margin: 0; }
-#root { width: 100%; min-height: 100svh; }
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, Arial, sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+}
